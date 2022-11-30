@@ -1,0 +1,57 @@
+body {
+  font-family: 'roboto', sans-serif;
+}
+h1 {
+  font-size: 44px;
+  font-weight: 800;
+  background-color: #2f303a;
+  color: #ffffff;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #212121;
+}
+.describtion-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #212121;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #212121;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+.link-top .link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+}
+.link-top:hover {
+  color: #2196f3;
+}
+.link-bottom .link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #212121;
+}
+button {
+  font-size: 16px;
+  background-color: #2196f3;
+  color: #ffffff;
+}

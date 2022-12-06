@@ -8,23 +8,31 @@
     <link rel="stylesheet" href="/CSS/style.css" />
   </head>
   <body>
-    <header>
-      <a href="/index.html">WebStudio </a>
+    <header class="header">
+      <a href="/index.html" class="top-logo"><span class="logo-span">Web</span>Studio </a>
       <nav>
         <ul class="top-section-list">
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li class="item"><a class="top-link-agency" href="#">Agencja</a></li>
+          <li class="item"><a class="top-link" href="#">Portfolio</a></li>
+          <li class="item"><a class="top-link" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <a class="top-section-list-links" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="top-section-list-links" href="tel:48111111111">+48 111 111 111</a>
+      <ul class="top-section-list-contact">
+        <li class="item-contact">
+          <a class="top-section-list-contact" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="item-contact"><a class="top-section-list-contact" href="tel:48111111111">+48 111 111 111</a></li>
+      </ul>
     </header>
     <main>
       <section>
         <!--hero-->
-        <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA <br />
-          DLA WASZEGO BIZNESU</h1>
+        <h1 class="main-title">
+          EFEKTYWNE ROZWIĄZANIA <br />
+          DLA WASZEGO BIZNESU
+        </h1>
         <button type="button" class="button-main-title">Zamów usługe</button>
       </section>
 
@@ -104,17 +112,23 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <!--stopka-->
-      <a href="/index.html">WebStudio </a>
+      <a href="/index.html" class="footer-logo"><span class="logo-span">Web</span>Studio</a>
       <address>
-        <ul>
-          <li>
-            <a href="https://goo.gl/maps/c2nvqqu56Gkzz6nF9">m. Warszawa, Aleje Jerozolimskie 21</a>
+        <ul class="bottom-section-list">
+          <li class="item">
+            <a class="footer-section-adress" href="https://goo.gl/maps/c2nvqqu56Gkzz6nF9"
+              >m. Warszawa, Aleje Jerozolimskie 21</a
+            >
           </li>
 
-          <li><a href="mailto:example.com">info@example.com</a></li>
-          <li><a href="tel:48111111111">+48 111 111 111</a></li>
+          <li class="item">
+            <a class="bottom-section-link" href="mailto:example.com">info@example.com</a>
+          </li>
+          <li class="item">
+            <a class="bottom-section-link" href="tel:48111111111">+48 111 111 111</a>
+          </li>
         </ul>
       </address>
     </footer>

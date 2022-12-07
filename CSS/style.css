@@ -10,6 +10,9 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--gray-text-color);
 }
+ul {
+  list-style-type: none;
+}
 img {
   display: block;
 }
@@ -77,9 +80,14 @@ img {
   margin-right: 46px;
 }
 /* title page with button */
+.title-section {
+  padding: 200px;
+  background-color: var(--black-footer-background-color);
+  text-align: center;
+}
 .main-title {
   margin-bottom: 30px;
-  color: var(--hover-text-color);
+  color: var(--white-text-color);
   font-weight: 900px;
   font-size: 44px;
   text-align: center;
@@ -96,29 +104,70 @@ img {
   border-radius: 4px;
   cursor: pointer;
 }
+/* lorem section */
+.lorem-section {
+  padding: 94px;
+}
+.lorem-section-block {
+  display: flex;
+}
+.lorem-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 16.41px;
+  
+  color: var(--black-text-color);
+}
+.lorem-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+/* What we do section */
+.what-we-do-section {
+  padding-top: 0px;
+}
+.what-we-do-setion-title {
+text-align: center;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: var(--black-text-color);
+}
+.what-we-do-blocks-section {
+  display: flex;
+}
+.what-we-do-blocks-section .item {
+  margin-left: 30px;
+  margin-top: 50px;
+}
 /* ABOUT US SECTION */
 .our-team-section {
   background-color: var(--our-team-background-color);
+  text-align: center;
 }
 .person-block {
   display: flex;
-  margin-top: 186px;
-  margin-right: 215px;
-  margin-left: 215px;
-  margin-bottom: 94px;
 }
-.person-section {
+.person-section .item {
   margin-left: 30px;
   margin-top: 30px;
-  text-align: center;
   background-color: var(--white-text-color);
 }
-.staff-title {
+.text-wrapper {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.team-title {
   color: var(--black-text-color);
   font-size: 36px;
   font-weight: 700px;
   letter-spacing: 0.03em;
   line-height: 1.42;
+  padding: 20px;
 }
 .team-name-txt {
   color: var(--black-text-color);

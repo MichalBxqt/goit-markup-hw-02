@@ -9,21 +9,32 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--gray-text-color);
+  margin: 0;
+  padding: 0;
 }
 ul {
   list-style-type: none;
+  padding: 0;
 }
 img {
   display: block;
 }
 /* top-section-list and links */
 .header {
-  padding: 25px 0px;
-  height: 80px;
+  padding: 19px 0px;
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-top-link-section {
+  display: flex;
+  align-items: center;
 }
 .top-logo {
-  margin-top: 24;
-  margin-bottom: 25px;
   font-family: 'Raleway', sans-serif;
   color: var(--black-text-color);
   font-size: 26px;
@@ -31,19 +42,12 @@ img {
   letter-spacing: 0.03em;
   line-height: 1.31;
   text-decoration: none;
+  margin-right: 93px;
 }
 .logo-span {
-  color:var(--hover-text-color)
+  color: var(--hover-text-color);
 }
 .top-link {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: var(--black-text-color);
-  text-decoration: none;
-}
-.top-link-agency {
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
@@ -60,19 +64,23 @@ img {
   color: var(--black-text-color);
   text-decoration: none;
 }
-.top-section-list:hover {
-  color: #2196f3;
-  cursor: pointer;
+.top-link:hover {
+  color: var(--hover-text-color);
 }
 .top-section-list-contact {
   display: flex;
-  color: var(--black-text-color);
+  margin-left: auto;
+  color: var(--gray-text-color);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.14;
   text-decoration: none;
 }
+.top-section-list-contact:hover {
+  color: var(--hover-text-color);
+}
+
 .item-contact {
   margin-right: 50px;
 }
@@ -82,6 +90,7 @@ img {
 /* title page with button */
 .title-section {
   padding: 200px;
+  height: ;
   background-color: var(--black-footer-background-color);
   text-align: center;
 }
@@ -106,7 +115,7 @@ img {
 }
 /* lorem section */
 .lorem-section {
-  padding: 94px;
+  margin-top: 94px;
 }
 .lorem-section-block {
   display: flex;
@@ -116,7 +125,7 @@ img {
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 16.41px;
-  
+
   color: var(--black-text-color);
 }
 .lorem-text {
@@ -130,19 +139,21 @@ img {
   padding-top: 0px;
 }
 .what-we-do-setion-title {
-text-align: center;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-color: var(--black-text-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--black-text-color);
+  margin-top: 94px;
 }
 .what-we-do-blocks-section {
   display: flex;
+  margin-left: -20px;
 }
 .what-we-do-blocks-section .item {
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 /* ABOUT US SECTION */
 .our-team-section {
@@ -152,14 +163,25 @@ color: var(--black-text-color);
 .person-block {
   display: flex;
 }
-.person-section .item {
+.person-block-flex {
+  display: flex;
+  flex-basis: calc((100% - 120px) / 4);
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.person-section {
   margin-left: 30px;
-  margin-top: 30px;
-  background-color: var(--white-text-color);
+  margin-top: 32px;
+  margin-bottom: 94px;
+  text-align: center;
+  background-color: var(--our-team-background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .text-wrapper {
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 .team-title {
   color: var(--black-text-color);
@@ -167,14 +189,16 @@ color: var(--black-text-color);
   font-weight: 700px;
   letter-spacing: 0.03em;
   line-height: 1.42;
-  padding: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .team-name-txt {
   color: var(--black-text-color);
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 500px;
   letter-spacing: 0.03em;
   line-height: 1.19;
+  margin-bottom: 10px;
 }
 .team-describe-txt {
   color: var(--gray-text-color);
@@ -186,7 +210,7 @@ color: var(--black-text-color);
 /* footer section */
 .footer {
   background-color: var(--black-footer-background-color);
-  padding: 60px 215px;
+  padding: 60px 0px;
 }
 .footer .item {
   margin-bottom: 9px;
@@ -201,13 +225,17 @@ color: var(--black-text-color);
   line-height: 1.31;
   text-decoration: none;
 }
-.bottom-section-link {
+.bottom-section-contact {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.24;
   letter-spacing: 0.03em;
   color: var(--gray-text-color);
   text-decoration: none;
+  font-style: normal;
+}
+.bottom-section-contact:hover {
+  color: var(--hover-text-color);
 }
 .footer-section-adress {
   font-size: 14px;
@@ -216,5 +244,8 @@ color: var(--black-text-color);
   letter-spacing: 0.03em;
   color: var(--white-text-color);
   text-decoration: none;
-  
+  font-style: normal;
+}
+.footer-section-adress:hover {
+  color: var(--hover-text-color);
 }

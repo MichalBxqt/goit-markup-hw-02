@@ -260,8 +260,7 @@ img {
   font-weight: 500;
   line-height: 1.26;
   letter-spacing: 0.03em;
-  padding: 10px
-  
+  padding: 10px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -271,22 +270,19 @@ img {
   border-radius: 8px;
 }
 .portfolio-photo-title {
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-font-style: normal;
-font-family: 'Roboto', sans-serif;
-color: var(--black-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  color: var(--black-text-color);
 }
 .portfolio-photo-text {
   font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-font-family: 'Roboto', sans-serif;
-}
-.section-portfolio{
-  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
 }

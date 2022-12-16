@@ -124,6 +124,7 @@ body {
 /* lorem section */
 .lorem-section {
   margin-top: 94px;
+  margin-bot: 94px;
 }
 .lorem-section-block {
   display: flex;
@@ -166,6 +167,7 @@ body {
 .our-team-section {
   background-color: var(--our-team-background-color);
   text-align: center;
+  margin-top: 94px;
 }
 .person-block-flex {
   display: flex;
